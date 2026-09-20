@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const formData = new FormData();
       formData.append("file", file);
 
-      const response = await fetch(`/detect?model=${model}`, {
+      const response = await fetch(`/detect/?model_type=${model}`, {
         method: "POST",
         body: formData,
       });
