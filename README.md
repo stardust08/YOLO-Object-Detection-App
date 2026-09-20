@@ -144,12 +144,4 @@ YOLO-Object-Detection-App/
 
 ---
 
-## 🙌 Credits
-
-Originally created by **[Raafat-Nagy](https://github.com/Raafat-Nagy/YOLO-Object-Detection-App)**.
-
 ---
-
-## 📄 License
-
-Released under the [MIT License](https://choosealicense.com/licenses/mit/).
