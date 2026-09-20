@@ -6,8 +6,7 @@
 A modern web application for real-time object detection in images and videos using powerful **YOLO models**. Built with a **FastAPI** backend and a dynamic **JavaScript** frontend.
 
 
-🎥 [Watch Demo on YouTube](https://youtu.be/ONM9z99RVaU)  
-📁 [GitHub Repository](https://github.com/Raafat-Nagy/YOLO-Object-Detection-App)
+📁 [Original project by Raafat-Nagy](https://github.com/Raafat-Nagy/YOLO-Object-Detection-App)
 
 ---
 
@@ -71,14 +70,6 @@ YOLO-Object-Detection-App/
 ├── requirements.txt
 └── README.md
 ```
-
----
-
-## Demo
-
-📸 Here’s how it works:
-
-[![Watch the video](https://img.youtube.com/vi/ONM9z99RVaU/hqdefault.jpg)](https://youtu.be/ONM9z99RVaU)
 
 ---
 
