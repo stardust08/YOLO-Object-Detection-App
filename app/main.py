@@ -5,7 +5,7 @@ from fastapi.templating import Jinja2Templates
 
 import io
 
-from .model_loader import load_models
+from .model_loader import PROJECT_ROOT, load_models
 from .image_processor import process_image
 from .stream_processor import generate_stream, save_temp_video, get_video_path
 
@@ -20,10 +20,12 @@ app = FastAPI(
 )
 
 # Serve static files (e.g., CSS, JS)
-app.mount("/static", StaticFiles(directory="static"), name="static")
+app.mount(
+    "/static", StaticFiles(directory=PROJECT_ROOT / "static"), name="static"
+)
 
 # Jinja2 template engine setup
-templates = Jinja2Templates(directory="templates")
+templates = Jinja2Templates(directory=PROJECT_ROOT / "templates")
 
 
 @app.get("/", response_class=HTMLResponse)
@@ -31,7 +33,7 @@ async def home(request: Request):
     """
     Render the main upload form page.
     """
-    return templates.TemplateResponse("index.html", {"request": request})
+    return templates.TemplateResponse(request, "index.html")
 
 
 @app.post("/detect/")
