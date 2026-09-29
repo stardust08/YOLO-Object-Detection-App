@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎯 YOLO Object Detection App
+#YOLO Object Detection App
 
 **Real-time object detection for images and video, in your browser.**
 
