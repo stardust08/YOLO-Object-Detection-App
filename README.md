@@ -18,7 +18,7 @@ Upload a photo or a clip, pick a model, and get annotated results back — power
 
 ---
 
-## ✨ Features
+## Features
 
 | | Feature | Details |
 |:--:|:--|:--|
@@ -31,7 +31,7 @@ Upload a photo or a clip, pick a model, and get annotated results back — power
 
 ---
 
-## 🚀 Quickstart
+## Quickstart
 
 ### 1. Clone
 
@@ -88,7 +88,7 @@ Open **<http://127.0.0.1:8000>** — interactive API docs live at **`/docs`**.
 
 ---
 
-## 🔌 API
+##  API
 
 | Method | Endpoint | Returns |
 |:--|:--|:--|
@@ -107,7 +107,7 @@ curl -X POST "http://127.0.0.1:8000/detect/?model_type=s" \
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 YOLO-Object-Detection-App/
